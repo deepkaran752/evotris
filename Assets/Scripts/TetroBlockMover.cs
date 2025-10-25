@@ -11,6 +11,8 @@ public class TetroBlockMover : MonoBehaviour
     #region readonly grid value
     static readonly int height = 20;
     static readonly int width = 20;
+
+    static Transform[,] grid = new Transform[width , height];
     #endregion
 
     #region KeyBoardButton VARS
@@ -23,6 +25,11 @@ public class TetroBlockMover : MonoBehaviour
     #region RotationPoint
     [SerializeField] Vector3 rotationPoint;
     #endregion
+
+    GameHandler gameHandler;
+
+    void Start() =>
+        gameHandler = FindAnyObjectByType<GameHandler>();
     void Update()
     {
         //input handling.
@@ -67,10 +74,69 @@ public class TetroBlockMover : MonoBehaviour
             if (!ValidMoveChecker())
             {
                 transform.position -= new Vector3(0, -1, 0);
+                AddToGrid();
+                CheckForLines();
                 this.enabled = false;
+                gameHandler.canSpawnNewTetris?.Invoke();
             }
         }
         
+    }
+
+    private void CheckForLines()
+    {
+        for(int i=  height -1; i>=0; i--)
+        {
+            if (HasLine(i))
+            {
+                DestroyLine(i);
+                RowDown(i);
+            }
+        }
+    }
+
+    bool HasLine(int i)
+    {
+        for(int j = 0; j<width; j++)
+        {
+            if ((grid[j, i]) == null)
+                return false;
+        }
+        return true;
+    }
+
+    void DestroyLine(int i)
+    {
+        for(int j=0; j<width; j++)
+        {
+            grid[j, i].gameObject.SetActive(false);
+            grid[j, i] = null;
+        }
+    }
+
+    void RowDown(int i)
+    {
+        for(int y = i; y<height; y++)
+        {
+            for(int x = 0; x<width; x++)
+            {
+                if (grid[x, y] != null)
+                {
+                    grid[x,y-1] = grid[x,y];
+                    grid[x,y] = null;
+                    grid[x,y-1].transform.position -= new Vector3(0,1,0);
+                }
+            }
+        }
+    }
+    private void AddToGrid()
+    {
+        foreach (Transform child in transform)
+        {
+            int roundedX = Mathf.RoundToInt(child.position.x);
+            int roundedY = Mathf.RoundToInt(child.position.y);
+            grid[roundedX, roundedY] = child; 
+        }
     }
 
     private void RotateTheTetro()
@@ -90,9 +156,10 @@ public class TetroBlockMover : MonoBehaviour
             int roundedY = Mathf.RoundToInt(child.position.y);
 
             if (roundedX < 0 || roundedX >= width || roundedY < 0 || roundedY >= height)
-            {
                 return false;
-            }
+
+            if (grid[roundedX, roundedY] != null)
+                return false;
         }
         return true;
     }
