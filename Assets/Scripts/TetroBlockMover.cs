@@ -6,13 +6,14 @@ public class TetroBlockMover : MonoBehaviour
     #region Variables for falling
     [SerializeField] float previousTime = 0f;
     [SerializeField] float fallingTime = 0.8f;
+    [SerializeField] float baseFallingTime = 0.8f;
     #endregion
 
     #region readonly grid value
     static readonly int height = 20;
     static readonly int width = 20;
 
-    static Transform[,] grid = new Transform[width , height];
+    public static Transform[,] grid = new Transform[width , height];
     #endregion
 
     #region KeyBoardButton VARS
@@ -76,6 +77,7 @@ public class TetroBlockMover : MonoBehaviour
                 transform.position -= new Vector3(0, -1, 0);
                 AddToGrid();
                 CheckForLines();
+                //AIManager.Instance.UpdateMetrics(recentLinesCleared, avgStackHeight);
                 this.enabled = false;
                 gameHandler.canSpawnNewTetris?.Invoke();
             }
@@ -137,6 +139,11 @@ public class TetroBlockMover : MonoBehaviour
             int roundedY = Mathf.RoundToInt(child.position.y);
             grid[roundedX, roundedY] = child; 
         }
+    }
+
+    public void ApplyAIMeta(float fallSpeedMod)
+    {
+        fallingTime = Mathf.Clamp(baseFallingTime * (1f / Mathf.Max(0.1f, fallSpeedMod)), 0.08f, 2.0f);
     }
 
     private void RotateTheTetro()
