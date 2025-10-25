@@ -36,12 +36,12 @@ public class AIManager : MonoBehaviour
 
         // Pick a classic base
         int idx = Random.Range(0, TetroShapeLibrary.Classic.Length);
-        var baseColor = playerDoingWell ? new Color(1f, .6f, .2f) : new Color(.4f, .9f, 1f);
-        var data = TetroShapeLibrary.MakeClassic(idx, baseColor);
+        var data = TetroShapeLibrary.MakeClassic(idx, GetClassicColor(idx));
 
         // Maybe mutate shape
         if (Random.value < mutateChance)
         {
+            data.color = GetAIMutatedColor();
             data.cells = Mutate(data.cells);
             data.mutated = true;
             data.label = "Mutated";
@@ -88,4 +88,33 @@ public class AIManager : MonoBehaviour
 
         return list.ToArray();
     }
+
+    #region Color Helper Methods
+    private Color GetClassicColor(int index)
+    {
+        // Vibrant classic palette
+        Color[] classicColors = {
+        new Color(1f, 0.92f, 0.23f), // Yellow O
+        new Color(0f, 0.69f, 1f),    // Cyan I
+        new Color(0.41f, 0.94f, 0.68f), // Green S
+        new Color(1f, 0.32f, 0.32f), // Red Z
+        new Color(1f, 0.57f, 0f),    // Orange L
+        new Color(0.67f, 0f, 1f),    // Indigo J
+        new Color(1f, 0.25f, 0.51f)  // Pink T
+    };
+        return classicColors[Mathf.Clamp(index, 0, classicColors.Length - 1)];
+    }
+
+    private Color GetAIMutatedColor()
+    {
+        // Neon colors to signify AI mutation
+        Color[] aiColors = {
+        new Color(0.58f, 0f, 1f),     // Neon Purple
+        new Color(0f, 1f, 0.93f),     // Neon Teal
+        new Color(1f, 0f, 0.53f),     // Hot Pink
+        new Color(0.3f, 0.9f, 0.1f)   // Neon Lime
+    };
+        return aiColors[Random.Range(0, aiColors.Length)];
+    }
+    #endregion
 }
