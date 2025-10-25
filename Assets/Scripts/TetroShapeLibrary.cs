@@ -20,8 +20,8 @@ public static class TetroShapeLibrary
         new (1f, 1f),       // S
         new (1f, 1f),       // Z
         new (1f, 1f),       // L
-        new Vector2(1f, 1f),       // J
-        new Vector2(1f, 0f)        // T (as per your example)
+        new (1f, 1f),       // J
+        new (1f, 0f)        // T 
     };
 
     public static TetroShapeData MakeClassic(int index, Color c) => new()

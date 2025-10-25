@@ -42,7 +42,7 @@ public class Spawnner : MonoBehaviour
         // 3. Get the movement script to apply speed controls
         var mover = pieceRoot.GetComponent<TetroBlockMover>();
         if (mover != null)
-            mover.ApplyAIMeta(shapeData.fallSpeedMod);
+            mover.ApplyAIMeta(shapeData.fallSpeedMod, shapeData.mutated);
 
         // 4. Create block cells for each shape position
         foreach (Vector2Int cell in shapeData.cells)

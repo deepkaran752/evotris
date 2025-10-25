@@ -10,8 +10,8 @@ public class TetroBlockMover : MonoBehaviour
     #endregion
 
     #region readonly grid value
-    static readonly int height = 20;
-    static readonly int width = 20;
+    public static readonly int height = 20;
+    public static readonly int width = 20;
 
     public static Transform[,] grid = new Transform[width , height];
     #endregion
@@ -22,6 +22,9 @@ public class TetroBlockMover : MonoBehaviour
     bool downButtonPressed = false;
     bool upButtonPressed = false;
     #endregion
+
+    private int linesCleared = 0;       // Tracks number of lines cleared by this piece
+    private bool wasMutatedBlock = false;  // Set when spawned
 
     #region RotationPoint
     [SerializeField] Vector3 rotationPoint;
@@ -76,25 +79,28 @@ public class TetroBlockMover : MonoBehaviour
             {
                 transform.position -= new Vector3(0, -1, 0);
                 AddToGrid();
-                CheckForLines();
+                linesCleared = CheckForLines();
+                gameHandler.OnBlockLocked(linesCleared, wasMutatedBlock);
                 //AIManager.Instance.UpdateMetrics(recentLinesCleared, avgStackHeight);
                 this.enabled = false;
-                gameHandler.canSpawnNewTetris?.Invoke();
             }
         }
         
     }
 
-    private void CheckForLines()
+    private int CheckForLines()
     {
+        int lines = 0;
         for(int i=  height -1; i>=0; i--)
         {
             if (HasLine(i))
             {
                 DestroyLine(i);
                 RowDown(i);
+                lines++;
             }
         }
+        return lines;
     }
 
     bool HasLine(int i)
@@ -141,9 +147,10 @@ public class TetroBlockMover : MonoBehaviour
         }
     }
 
-    public void ApplyAIMeta(float fallSpeedMod)
+    public void ApplyAIMeta(float fallSpeedMod, bool mutated)
     {
         fallingTime = Mathf.Clamp(baseFallingTime * (1f / Mathf.Max(0.1f, fallSpeedMod)), 0.08f, 2.0f);
+        wasMutatedBlock = mutated;
     }
 
     private void RotateTheTetro()
