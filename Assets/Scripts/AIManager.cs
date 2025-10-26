@@ -15,6 +15,7 @@ public class AIManager : MonoBehaviour
     private int linesClearedRecent = 0;   // update from GameHandler
     private int avgStackHeight = 0;       // update from GameHandler (0..height)
 
+    [SerializeField] AIEmotionManager emotionManager;
     void Awake()
     {
         if (Instance != null && Instance != this) { Destroy(gameObject); return; }
@@ -32,6 +33,11 @@ public class AIManager : MonoBehaviour
     {
         // Difficulty heuristic
         bool playerDoingWell = linesClearedRecent >= 3 && avgStackHeight <= 7;
+        
+        // call to emotion
+        if (playerDoingWell)
+            ShowMessage("You are adapting.... so must I");
+
         float mutateChance = playerDoingWell ? hardMutateChance : easyMutateChance;
 
         // Pick a classic base
@@ -45,6 +51,9 @@ public class AIManager : MonoBehaviour
             data.cells = Mutate(data.cells);
             data.mutated = true;
             data.label = "Mutated";
+
+            //call to emotion
+            ShowMessage("Mutated block deployed. Let’s see you handle this.");
         }
 
         // Fall speed mod adapts with performance
@@ -88,6 +97,10 @@ public class AIManager : MonoBehaviour
 
         return list.ToArray();
     }
+
+    #region EmotionManager Helper Methods
+    public void ShowMessage(string message, bool showcase = false) => emotionManager.ShowMessage(message, showcase);
+    #endregion
 
     #region Color Helper Methods
     private Color GetClassicColor(int index)
