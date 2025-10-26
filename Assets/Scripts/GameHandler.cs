@@ -25,9 +25,9 @@ public class GameHandler : MonoBehaviour
     public int Score { get; private set; } = 0;
     private bool isGameOver = false;
 
-    //AI metrics tracking (optional but useful)
+    //AI metrics tracking
     private int recentLinesCleared = 0;
-    private int stackPressure = 0;  // you can calculate based on grid height
+    private int stackPressure = 0;  // calculate based on grid height
 
     private void Start() => threatLevelText.color = new Color(0f, 1f, 0.25f);
 
@@ -54,7 +54,7 @@ public class GameHandler : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             //escaping back to menu.
-            emotionManager.ShowMessage("YOU CAN'T ESCAPE ME! REMOVE THE PLUG", true);
+            emotionManager.ShowMessage("YOU CAN'T ESCAPE ME... WHY DID YOU REMOVE THE PLUG?", true);
             OnGameOver();
         }
     }
@@ -194,7 +194,6 @@ public class GameHandler : MonoBehaviour
         else if (level >= 85)
             emotionManager.TriggerScreenFlicker(intensity: 0.5f, duration: 0.15f);
     }
-
 
     //Handle GameOver
     void OnGameOver()

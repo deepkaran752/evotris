@@ -46,6 +46,7 @@ public class AIEmotionManager : MonoBehaviour
     private void ClearText()
     {
         aiBottomDialogueText.text = "";
+        aiBottomDialogueText.transform.parent.gameObject.GetComponent<Image>().enabled = false;
     }
     #endregion
 
