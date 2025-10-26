@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class GameHandler : MonoBehaviour
 {
@@ -35,13 +36,27 @@ public class GameHandler : MonoBehaviour
         triggerGameOver -= () => AIManager.Instance.ShowMessage("Game Over. I remain in control.", true);
         triggerGameOver += () => AIManager.Instance.ShowMessage("Game Over. I remain in control.", true);
 
+        triggerGameOver -= OnGameOver;
+        triggerGameOver += OnGameOver;
+
         onScoreUpdated -= (value) => threatLevelText.text = threatLevelText.text;
         onScoreUpdated += (value) => threatLevelText.text = threatLevelText.text;
     }
     private void OnDisable()
     {   
         triggerGameOver -= () => AIManager.Instance.ShowMessage("Game Over. I remain in control.", true);
+        triggerGameOver -= OnGameOver;
         onScoreUpdated -= (value) => threatLevelText.text = threatLevelText.text;
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            //escaping back to menu.
+            emotionManager.ShowMessage("YOU CAN'T ESCAPE ME! REMOVE THE PLUG", true);
+            OnGameOver();
+        }
     }
     public void OnBlockLocked(int linesCleared, bool wasMutatedBlock)
     {
@@ -118,7 +133,7 @@ public class GameHandler : MonoBehaviour
         // Weighted calculation to feel dynamic
         threatLevel = ((Score * 0.1f)
                     + (recentLinesCleared * 3f)
-                    - (stackPressure * 1.2f)) * threatIncreaser;
+                    - ((1f - (stackPressure / (float)TetroBlockMover.height)) * 20f))* threatIncreaser;
 
         threatLevel = Mathf.Clamp(threatLevel, 0, 100);  // Keep in range 0–100
         UpdateThreatVisuals(threatLevel);
@@ -180,4 +195,16 @@ public class GameHandler : MonoBehaviour
             emotionManager.TriggerScreenFlicker(intensity: 0.5f, duration: 0.15f);
     }
 
+
+    //Handle GameOver
+    void OnGameOver()
+    {
+        StartCoroutine(WaitForSomeTime(4.5f));
+    }
+
+    IEnumerator WaitForSomeTime(float duration)
+    {
+        yield return new WaitForSeconds(duration);
+        SceneManager.LoadScene(sceneBuildIndex: 0);
+    }
 }

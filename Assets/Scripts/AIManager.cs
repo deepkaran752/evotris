@@ -18,9 +18,15 @@ public class AIManager : MonoBehaviour
     [SerializeField] AIEmotionManager emotionManager;
     void Awake()
     {
-        if (Instance != null && Instance != this) { Destroy(gameObject); return; }
         Instance = this;
-        DontDestroyOnLoad(gameObject);
+    }
+
+    private void Start()
+    {
+        if (emotionManager == null)
+        {
+            emotionManager = FindAnyObjectByType<AIEmotionManager>();
+        }
     }
 
     public void UpdateMetrics(int recentLines, int avgHeight)

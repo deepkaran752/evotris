@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using TMPro;
+using UnityEngine.UI;
 
 public class AIEmotionManager : MonoBehaviour
 {
@@ -38,6 +39,7 @@ public class AIEmotionManager : MonoBehaviour
         bgImageShow.gameObject.SetActive(showcase);
         aiDialogueText.text = message;
         aiBottomDialogueText.text = showcase? "" : message;
+        aiBottomDialogueText.transform.parent.gameObject.GetComponent<Image>().enabled = !showcase;
         timer = messageDuration;  // reset timer every time a message is shown
 
     }
