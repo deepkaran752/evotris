@@ -4,7 +4,15 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    public void BootAI() => SceneManager.LoadScene(1);
+    public void BootAI()
+    {
+        AudioManager.Instance?.PlayButtonClickSound();
+        SceneManager.LoadScene(1);
+    }
 
-    public void ShutDownAI() => Application.Quit();
+    public void ShutDownAI()
+    {
+        AudioManager.Instance?.PlayButtonClickSound();
+        Application.Quit();
+    }
 }

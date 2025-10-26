@@ -35,6 +35,9 @@ public class AIEmotionManager : MonoBehaviour
     #region ShowMessage and Clear
     public void ShowMessage(string message, bool showcase = false)
     {
+        //plays the error sound for AI
+        if (showcase)
+            AudioManager.Instance.PlayAIErrorSound();
 
         bgImageShow.gameObject.SetActive(showcase);
         aiDialogueText.text = message;

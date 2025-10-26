@@ -63,12 +63,16 @@ public class TetroBlockMover : MonoBehaviour
         //move left or right in the grid.
         if (leftButtonPressed)
         {
+            //play sound
+            AudioManager.Instance.PlayButtonClickSound();
             transform.position += new Vector3(-1, 0, 0);
             if (!ValidMoveChecker())
                 transform.position -= new Vector3(-1, 0, 0);
         }
         else if (rightButtonPressed)
         {
+            //play sound
+            AudioManager.Instance.PlayButtonClickSound();
             transform.position += new Vector3(1, 0, 0);
             if (!ValidMoveChecker())
                 transform.position -= new Vector3(1, 0, 0);
@@ -85,7 +89,6 @@ public class TetroBlockMover : MonoBehaviour
                 AddToGrid();
                 linesCleared = CheckForLines();
                 gameHandler.OnBlockLocked(linesCleared, wasMutatedBlock);
-                //AIManager.Instance.UpdateMetrics(recentLinesCleared, avgStackHeight);
                 this.enabled = false;
             }
         }
@@ -161,6 +164,7 @@ public class TetroBlockMover : MonoBehaviour
     {
         if (upButtonPressed)
         {
+            AudioManager.Instance.PlayButtonClickSound();
             transform.RotateAround(transform.TransformPoint(rotationPoint), new Vector3(0,0,1), 90);
             if (!ValidMoveChecker())
                 transform.RotateAround(transform.TransformPoint(rotationPoint), new Vector3(0, 0, 1), -90);
