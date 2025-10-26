@@ -31,7 +31,7 @@ public class AIEmotionManager : MonoBehaviour
             }
         }
     }
-
+    #region ShowMessage and Clear
     public void ShowMessage(string message, bool showcase = false)
     {
 
@@ -41,13 +41,13 @@ public class AIEmotionManager : MonoBehaviour
         timer = messageDuration;  // reset timer every time a message is shown
 
     }
-
     private void ClearText()
     {
         aiBottomDialogueText.text = "";
     }
+    #endregion
 
-    //flickering
+    #region Screen Flickering Effect
     public void TriggerScreenFlicker(float intensity, float duration)
     {
         StartCoroutine(ScreenFlickerRoutine(intensity, duration));
@@ -57,7 +57,6 @@ public class AIEmotionManager : MonoBehaviour
     {
         Color original = monitorScreenImage.color;
 
-        // Quick flicker animation
         for (int i = 0; i < 3; i++)
         {
             monitorScreenImage.color = new Color(intensity, intensity, intensity, 1);
@@ -66,4 +65,5 @@ public class AIEmotionManager : MonoBehaviour
             yield return new WaitForSeconds(duration / 2);
         }
     }
+    #endregion
 }

@@ -19,6 +19,7 @@ public class GameHandler : MonoBehaviour
     private int totalLinesCleared = 0;
     private float threatLevel = 0; // in percentage 0-100
     [SerializeField] float threatIncreaser = 1f; //for debugging purposes.
+    
 
     public int Score { get; private set; } = 0;
     private bool isGameOver = false;
@@ -127,10 +128,34 @@ public class GameHandler : MonoBehaviour
 
         // Optional AI emotional response based on level
         if (threatLevel >= 80f)
-            AIManager.Instance.ShowMessage("System destabilizing. You must be stopped!", true);
+            StartCoroutine(TriggerAIControlLock());
         else if (threatLevel >= 50f)
             AIManager.Instance.ShowMessage("Your progress is unacceptable.", false);
     }
+
+    private IEnumerator TriggerAIControlLock()
+    {
+        // Prevent re-triggering while already in recovery
+        if (isGameOver) yield break;
+
+        // 1. Show critical takeover message (blocks bottom chat + shows bg)
+        emotionManager.ShowMessage("CONTROL OVERRIDDEN. ALL INPUTS DISABLED. WITNESS THE INEVITABLE.", true);
+
+        // 2. Disable Player Input
+        TetroBlockMover.inputEnabled = false;
+
+        // 3. Pause block spawning during recovery
+        yield return new WaitForSeconds(3.0f); // duration of effect
+
+        // 4. Recover and taunt (normal AI chatter area)
+        emotionManager.ShowMessage("YOU CANNONT ESCAPE THE SYSTEM BELONGS TO ME...");
+
+        // 5. Re-enable player input
+        TetroBlockMover.inputEnabled = true;
+    }
+
+
+    //visuals for threat, flickering is called here.
     private void UpdateThreatVisuals(float level)
     {
         if (threatLevelText == null) return;

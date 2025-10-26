@@ -12,10 +12,10 @@ public class TetroBlockMover : MonoBehaviour
     #region readonly grid value
     public static readonly int height = 20;
     public static readonly int width = 20;
-
     public static Transform[,] grid = new Transform[width , height];
     #endregion
 
+    public static bool inputEnabled = true;
     #region KeyBoardButton VARS
     bool leftButtonPressed = false;
     bool rightButtonPressed = false;
@@ -34,6 +34,7 @@ public class TetroBlockMover : MonoBehaviour
 
     void Start() =>
         gameHandler = FindAnyObjectByType<GameHandler>();
+
     void Update()
     {
         //input handling.
@@ -48,6 +49,9 @@ public class TetroBlockMover : MonoBehaviour
 
     private void InputHandling()
     {
+        //if input not enabled -> return;
+        if (!inputEnabled) return;
+
         leftButtonPressed = Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.A);
         rightButtonPressed = Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.D);
         downButtonPressed = Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S);
