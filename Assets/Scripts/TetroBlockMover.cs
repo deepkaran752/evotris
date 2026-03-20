@@ -31,9 +31,13 @@ public class TetroBlockMover : MonoBehaviour
     #endregion
 
     GameHandler gameHandler;
+    InputHandler inputHandler;
 
-    void Start() =>
+    void Start()
+    {
         gameHandler = FindAnyObjectByType<GameHandler>();
+        inputHandler = FindAnyObjectByType<InputHandler>();
+    }
 
     void Update()
     {
@@ -45,17 +49,22 @@ public class TetroBlockMover : MonoBehaviour
 
         //rotation logic
         RotateTheTetro();
+        
+        //reset flags
+        ResetFlags();   
     }
+
+    public void ResetFlags() => inputHandler.ResetFlags();
 
     private void InputHandling()
     {
         //if input not enabled -> return;
         if (!inputEnabled) return;
 
-        leftButtonPressed = Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.A);
-        rightButtonPressed = Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.D);
-        downButtonPressed = Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S);
-        upButtonPressed = Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W);
+        leftButtonPressed = Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.A) || inputHandler.IsLeftPressed;
+        rightButtonPressed = Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.D) || inputHandler.IsRightPressed;
+        downButtonPressed = Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S) || inputHandler.IsDownPressed;
+        upButtonPressed = Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W) || inputHandler.IsUpPressed;
     }
 
     private void MovementOnTheGrid()

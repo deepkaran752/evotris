@@ -1,0 +1,910 @@
+fileFormatVersion: 2
+guid: 7c669d5a94dda134e88b49663c8f8bee
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6648503866518132093
+    second: BVSLogoTransparent_0
+  - first:
+      213: -1028670131428488829
+    second: BVSLogoTransparent_1
+  - first:
+      213: 4003811546343611218
+    second: BVSLogoTransparent_2
+  - first:
+      213: 2364419828818502506
+    second: BVSLogoTransparent_3
+  - first:
+      213: -2463044608699764788
+    second: BVSLogoTransparent_4
+  - first:
+      213: 4290335216603824166
+    second: BVSLogoTransparent_5
+  - first:
+      213: 2121994634954086004
+    second: BVSLogoTransparent_6
+  - first:
+      213: 3720313967722720649
+    second: BVSLogoTransparent_7
+  - first:
+      213: 8322476277253213839
+    second: BVSLogoTransparent_8
+  - first:
+      213: 232464064171899498
+    second: BVSLogoTransparent_9
+  - first:
+      213: -8018737156901094682
+    second: BVSLogoTransparent_10
+  - first:
+      213: -4983220155487214788
+    second: BVSLogoTransparent_11
+  - first:
+      213: 5907791748722193447
+    second: BVSLogoTransparent_12
+  - first:
+      213: 2345545780234651524
+    second: BVSLogoTransparent_13
+  - first:
+      213: -8877788859114810704
+    second: BVSLogoTransparent_14
+  - first:
+      213: -1562823448286005335
+    second: BVSLogoTransparent_15
+  - first:
+      213: 1837644672695311021
+    second: BVSLogoTransparent_16
+  - first:
+      213: -3297237803070531065
+    second: BVSLogoTransparent_17
+  - first:
+      213: 4493283250158697993
+    second: BVSLogoTransparent_18
+  - first:
+      213: 4210416040321690737
+    second: BVSLogoTransparent_19
+  - first:
+      213: -1680651990174388765
+    second: BVSLogoTransparent_20
+  - first:
+      213: 594804929529804834
+    second: BVSLogoTransparent_21
+  - first:
+      213: -2501107457691257128
+    second: BVSLogoTransparent_22
+  - first:
+      213: 7986504580640460209
+    second: BVSLogoTransparent_23
+  - first:
+      213: 4451881269240526453
+    second: BVSLogoTransparent_24
+  - first:
+      213: 7389024519383511985
+    second: BVSLogoTransparent_25
+  - first:
+      213: -7183375189225647427
+    second: BVSLogoTransparent_26
+  - first:
+      213: -184196471299083658
+    second: BVSLogoTransparent_27
+  - first:
+      213: 2731969750613724710
+    second: BVSLogoTransparent_28
+  - first:
+      213: 7136796346408073165
+    second: BVSLogoTransparent_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BVSLogoTransparent_0
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 704
+        width: 398
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d75df939a0b344c50800000000000000
+      internalID: 6648503866518132093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BVSLogoTransparent_1
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 766
+        width: 95
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 389862137fd69b1f0800000000000000
+      internalID: -1028670131428488829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BVSLogoTransparent_2
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 705
+        width: 479
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25b1b676365609730800000000000000
+      internalID: 4003811546343611218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BVSLogoTransparent_3
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 623
+        width: 49
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a63ed9c9e4b10d020800000000000000
+      internalID: 2364419828818502506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BVSLogoTransparent_4
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 699
+        width: 59
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccf62886af181ddd0800000000000000
+      internalID: -2463044608699764788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BVSLogoTransparent_5
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 561
+        width: 193
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6200509f5255a8b30800000000000000
+      internalID: 4290335216603824166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BVSLogoTransparent_6
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 699
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47619bfa0e6d27d10800000000000000
+      internalID: 2121994634954086004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BVSLogoTransparent_7
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 621
+        width: 50
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98d6903b7d531a330800000000000000
+      internalID: 3720313967722720649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BVSLogoTransparent_8
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 535
+        width: 51
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8e0b4d64106f7370800000000000000
+      internalID: 8322476277253213839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BVSLogoTransparent_9
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 469
+        width: 97
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6a7200b5d0e93300800000000000000
+      internalID: 232464064171899498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BVSLogoTransparent_10
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 505
+        width: 86
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ea3fa77a09b7b090800000000000000
+      internalID: -8018737156901094682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BVSLogoTransparent_11
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 469
+        width: 93
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c332e9abbab08dab0800000000000000
+      internalID: -4983220155487214788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BVSLogoTransparent_12
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 535
+        width: 51
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 724f19d6b41bcf150800000000000000
+      internalID: 5907791748722193447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BVSLogoTransparent_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 131
+        width: 198
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4878d4bb57d0d8020800000000000000
+      internalID: 2345545780234651524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BVSLogoTransparent_14
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 311
+        width: 73
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b29a85b112cbc480800000000000000
+      internalID: -8877788859114810704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BVSLogoTransparent_15
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 311
+        width: 80
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a7f24e9a5cbf4ae0800000000000000
+      internalID: -1562823448286005335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BVSLogoTransparent_16
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 311
+        width: 82
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daa9463f710a08910800000000000000
+      internalID: 1837644672695311021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BVSLogoTransparent_17
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 311
+        width: 71
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70addf700bbdd32d0800000000000000
+      internalID: -3297237803070531065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BVSLogoTransparent_18
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 311
+        width: 54
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90efbe04f495b5e30800000000000000
+      internalID: 4493283250158697993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BVSLogoTransparent_19
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 313
+        width: 98
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17c2bf7b4176e6a30800000000000000
+      internalID: 4210416040321690737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BVSLogoTransparent_20
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 311
+        width: 70
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ed2a9e5bef1da8e0800000000000000
+      internalID: -1680651990174388765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BVSLogoTransparent_21
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 311
+        width: 56
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22876479eeb214800800000000000000
+      internalID: 594804929529804834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BVSLogoTransparent_22
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 311
+        width: 61
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d67b37c4084a4dd0800000000000000
+      internalID: -2501107457691257128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BVSLogoTransparent_23
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 256
+        width: 71
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bdca1e0a93c5de60800000000000000
+      internalID: 7986504580640460209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BVSLogoTransparent_24
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 75
+        width: 111
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 576fb436d6248cd30800000000000000
+      internalID: 4451881269240526453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BVSLogoTransparent_25
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 16
+        width: 85
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b37182d6a61b8660800000000000000
+      internalID: 7389024519383511985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BVSLogoTransparent_26
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 215
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db2d9d513568f4c90800000000000000
+      internalID: -7183375189225647427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BVSLogoTransparent_27
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 179
+        width: 50
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6727657094a917df0800000000000000
+      internalID: -184196471299083658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BVSLogoTransparent_28
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 216
+        width: 17
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62e817a7308e9e520800000000000000
+      internalID: 2731969750613724710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BVSLogoTransparent_29
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 0
+        width: 372
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc775f5f67efa0360800000000000000
+      internalID: 7136796346408073165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BVSLogoTransparent_0: 6648503866518132093
+      BVSLogoTransparent_1: -1028670131428488829
+      BVSLogoTransparent_10: -8018737156901094682
+      BVSLogoTransparent_11: -4983220155487214788
+      BVSLogoTransparent_12: 5907791748722193447
+      BVSLogoTransparent_13: 2345545780234651524
+      BVSLogoTransparent_14: -8877788859114810704
+      BVSLogoTransparent_15: -1562823448286005335
+      BVSLogoTransparent_16: 1837644672695311021
+      BVSLogoTransparent_17: -3297237803070531065
+      BVSLogoTransparent_18: 4493283250158697993
+      BVSLogoTransparent_19: 4210416040321690737
+      BVSLogoTransparent_2: 4003811546343611218
+      BVSLogoTransparent_20: -1680651990174388765
+      BVSLogoTransparent_21: 594804929529804834
+      BVSLogoTransparent_22: -2501107457691257128
+      BVSLogoTransparent_23: 7986504580640460209
+      BVSLogoTransparent_24: 4451881269240526453
+      BVSLogoTransparent_25: 7389024519383511985
+      BVSLogoTransparent_26: -7183375189225647427
+      BVSLogoTransparent_27: -184196471299083658
+      BVSLogoTransparent_28: 2731969750613724710
+      BVSLogoTransparent_29: 7136796346408073165
+      BVSLogoTransparent_3: 2364419828818502506
+      BVSLogoTransparent_4: -2463044608699764788
+      BVSLogoTransparent_5: 4290335216603824166
+      BVSLogoTransparent_6: 2121994634954086004
+      BVSLogoTransparent_7: 3720313967722720649
+      BVSLogoTransparent_8: 8322476277253213839
+      BVSLogoTransparent_9: 232464064171899498
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

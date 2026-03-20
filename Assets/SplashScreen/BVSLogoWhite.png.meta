@@ -1,0 +1,858 @@
+fileFormatVersion: 2
+guid: d055bba157b65454393ab15e3d4821ea
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2295475933105984624
+    second: BVSLogoWhite_0
+  - first:
+      213: 1792590780321949542
+    second: BVSLogoWhite_1
+  - first:
+      213: 7899173968515707157
+    second: BVSLogoWhite_2
+  - first:
+      213: -1706506463159079733
+    second: BVSLogoWhite_3
+  - first:
+      213: -3539510470491951834
+    second: BVSLogoWhite_4
+  - first:
+      213: 8360454289187504670
+    second: BVSLogoWhite_5
+  - first:
+      213: -7997433895285065203
+    second: BVSLogoWhite_6
+  - first:
+      213: -7273900444580595375
+    second: BVSLogoWhite_7
+  - first:
+      213: -1155952352357124601
+    second: BVSLogoWhite_8
+  - first:
+      213: -2980678275669596008
+    second: BVSLogoWhite_9
+  - first:
+      213: -4960300712707634862
+    second: BVSLogoWhite_10
+  - first:
+      213: -2702801287707239372
+    second: BVSLogoWhite_11
+  - first:
+      213: -4388604580478385906
+    second: BVSLogoWhite_12
+  - first:
+      213: -3558895892449125018
+    second: BVSLogoWhite_13
+  - first:
+      213: 6334692100620275807
+    second: BVSLogoWhite_14
+  - first:
+      213: -486272608128515839
+    second: BVSLogoWhite_15
+  - first:
+      213: 6439369891118868298
+    second: BVSLogoWhite_16
+  - first:
+      213: -4531607301627623939
+    second: BVSLogoWhite_17
+  - first:
+      213: 840317953683173389
+    second: BVSLogoWhite_18
+  - first:
+      213: -8495149082782156498
+    second: BVSLogoWhite_19
+  - first:
+      213: 591621602853485273
+    second: BVSLogoWhite_20
+  - first:
+      213: 5712637795325274344
+    second: BVSLogoWhite_21
+  - first:
+      213: -8368293973361196960
+    second: BVSLogoWhite_22
+  - first:
+      213: 4756139215811919875
+    second: BVSLogoWhite_23
+  - first:
+      213: -2168055439013569318
+    second: BVSLogoWhite_24
+  - first:
+      213: 824169239060224360
+    second: BVSLogoWhite_25
+  - first:
+      213: 4381350305003941785
+    second: BVSLogoWhite_26
+  - first:
+      213: 1691110199450175345
+    second: BVSLogoWhite_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BVSLogoWhite_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 552
+        width: 1019
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0749d3ff23b2bdf10800000000000000
+      internalID: 2295475933105984624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BVSLogoWhite_1
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 623
+        width: 54
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 667eab031df80e810800000000000000
+      internalID: 1792590780321949542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BVSLogoWhite_2
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 531
+        width: 57
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 511346c6fd08f9d60800000000000000
+      internalID: 7899173968515707157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BVSLogoWhite_3
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 695
+        width: 59
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bccae78c9654158e0800000000000000
+      internalID: -1706506463159079733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BVSLogoWhite_4
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 751
+        width: 107
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62d2d8feaf121eec0800000000000000
+      internalID: -3539510470491951834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BVSLogoWhite_5
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 467
+        width: 104
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1289e361ec460470800000000000000
+      internalID: 8360454289187504670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BVSLogoWhite_6
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 561
+        width: 198
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0a7dd49e38630190800000000000000
+      internalID: -7997433895285065203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BVSLogoWhite_7
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 503
+        width: 90
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 159b73d951aed0b90800000000000000
+      internalID: -7273900444580595375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BVSLogoWhite_8
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 467
+        width: 101
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 706f974c57b35ffe0800000000000000
+      internalID: -1155952352357124601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BVSLogoWhite_9
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 751
+        width: 112
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8986dfc86e082a6d0800000000000000
+      internalID: -2980678275669596008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BVSLogoWhite_10
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 695
+        width: 57
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 259c1f758c8792bb0800000000000000
+      internalID: -4960300712707634862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BVSLogoWhite_11
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 530
+        width: 58
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43cddb38c88bd7ad0800000000000000
+      internalID: -2702801287707239372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BVSLogoWhite_12
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 623
+        width: 61
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e010fe8c26b8813c0800000000000000
+      internalID: -4388604580478385906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BVSLogoWhite_13
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 8
+        width: 123
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66d19f9aa034c9ec0800000000000000
+      internalID: -3558895892449125018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BVSLogoWhite_14
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 309
+        width: 159
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f50d1f227e859e750800000000000000
+      internalID: 6334692100620275807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BVSLogoWhite_15
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 311
+        width: 88
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1014f78a3a96049f0800000000000000
+      internalID: -486272608128515839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BVSLogoWhite_16
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 311
+        width: 76
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a476c797ccc3d5950800000000000000
+      internalID: 6439369891118868298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BVSLogoWhite_17
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 0
+        width: 515
+        height: 403
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df54bec2b2f7c11c0800000000000000
+      internalID: -4531607301627623939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BVSLogoWhite_18
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 311
+        width: 147
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d003ba70ab869ab00800000000000000
+      internalID: 840317953683173389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BVSLogoWhite_19
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 311
+        width: 76
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e29b8ce1bea2b1a80800000000000000
+      internalID: -8495149082782156498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BVSLogoWhite_20
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 311
+        width: 57
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9da778796bcd53800800000000000000
+      internalID: 591621602853485273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BVSLogoWhite_21
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 310
+        width: 65
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e865d8decd574f40800000000000000
+      internalID: 5712637795325274344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BVSLogoWhite_22
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 0
+        width: 54
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06083c5e7f8dddb80800000000000000
+      internalID: -8368293973361196960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BVSLogoWhite_23
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 215
+        width: 53
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30046ccea63310240800000000000000
+      internalID: 4756139215811919875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BVSLogoWhite_24
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 214
+        width: 58
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adc1e38a01589e1e0800000000000000
+      internalID: -2168055439013569318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BVSLogoWhite_25
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 215
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8691df86e89007b00800000000000000
+      internalID: 824169239060224360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BVSLogoWhite_26
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 215
+        width: 28
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99f2f4693eeadcc30800000000000000
+      internalID: 4381350305003941785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BVSLogoWhite_27
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 214
+        width: 58
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 177844a34c7087710800000000000000
+      internalID: 1691110199450175345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BVSLogoWhite_0: 2295475933105984624
+      BVSLogoWhite_1: 1792590780321949542
+      BVSLogoWhite_10: -4960300712707634862
+      BVSLogoWhite_11: -2702801287707239372
+      BVSLogoWhite_12: -4388604580478385906
+      BVSLogoWhite_13: -3558895892449125018
+      BVSLogoWhite_14: 6334692100620275807
+      BVSLogoWhite_15: -486272608128515839
+      BVSLogoWhite_16: 6439369891118868298
+      BVSLogoWhite_17: -4531607301627623939
+      BVSLogoWhite_18: 840317953683173389
+      BVSLogoWhite_19: -8495149082782156498
+      BVSLogoWhite_2: 7899173968515707157
+      BVSLogoWhite_20: 591621602853485273
+      BVSLogoWhite_21: 5712637795325274344
+      BVSLogoWhite_22: -8368293973361196960
+      BVSLogoWhite_23: 4756139215811919875
+      BVSLogoWhite_24: -2168055439013569318
+      BVSLogoWhite_25: 824169239060224360
+      BVSLogoWhite_26: 4381350305003941785
+      BVSLogoWhite_27: 1691110199450175345
+      BVSLogoWhite_3: -1706506463159079733
+      BVSLogoWhite_4: -3539510470491951834
+      BVSLogoWhite_5: 8360454289187504670
+      BVSLogoWhite_6: -7997433895285065203
+      BVSLogoWhite_7: -7273900444580595375
+      BVSLogoWhite_8: -1155952352357124601
+      BVSLogoWhite_9: -2980678275669596008
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
